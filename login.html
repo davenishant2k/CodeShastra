@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <title>HelpingHands</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/signin.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="shortcut icon" href="img/fevicon.png">
+        <link rel="stylesheet" href="css/signin.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu&display=swap" rel="stylesheet">
+        <meta name="google-signin-client_id" content="762280122593-2f9kfr72ll4b7uh4kfmt0lsvoa496r3e.apps.googleusercontent.com">
+    </head>
+<body>
+
+	<!--================ Start Header Menu Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<!-- <a class="navbar-brand logo_h" href="index.html"><img class="logo_img" src="img/logo.png" alt=""></a> -->
+            <a class="navbar-brand" href="">HelpingHands</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto">
+								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+								<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+
+<li class="nav-item"><a class="nav-link" href="login.html">Register</a>
+
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!--================ End Header Menu Area =================-->
+  <form class="form-signin" method="POST" action="mailto:davenishant2k@gmail.com" id="form1" enctype="text/plain">
+   <!-- <img class="mb-4" src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"> -->
+   <h1 class="h3 mb-3 font-weight-normal">Enter candidate details:</h1>
+   <br>
+   <label for="fullname" >Name: </label>
+   <input type="text" class="details" name ="fullname">
+   <br>
+   <label for="age" >Age:    </label>
+   <input type="number" class="details" name="age">
+   <br>
+   <label for="gender" >Gender: </label>
+   <input type="text" class="details" name="gender">
+   <br>
+   <label for="description">Description: </label>
+   <input type="text" class="details" name="description">
+   <br>
+   <label for="address">Address: </label>
+   <input type="text" class="details" name="address">
+ <button class="btn btn-lg btn-primary btn-block" type="submit" form="form1" value="Submit">Enter</button>
+ <a href="thankyou.html" style="margin-top: 30px;visibility:hidden;" class="ab">Next page--></a>
+ <script type="text/javascript">
+    document.querySelector(".btn").onclick = function () {
+          document.querySelector(".ab").style.visibility="visible";
+          document.querySelector(".btn").style.visibility="hidden";
+    };
+</script>
+
+ </form>
+
+  <!-- <script src="js\signin.js" charset="utf-8"></script> -->
+</body>
+</html>
